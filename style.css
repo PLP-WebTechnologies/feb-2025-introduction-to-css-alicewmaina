@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: hwb(342 56% 37%);
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background-color: hsl(117, 82%, 41%);
+    color: #060404;
+    padding: 50px 20px;
+}
+
+#main-heading {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Call to Action Button */
+.btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #e65c00;
+}
+
+/* Main Content */
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(142, 223, 243);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+.service {
+    margin: 20px 0;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.service:last-child {
+    border-bottom: none;
+}
+
+.service h3 {
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+.text-content {
+    font-size: 16px;
+    color: #555;
+}
